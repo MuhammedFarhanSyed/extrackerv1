@@ -1,5 +1,5 @@
 import Sidebar from "./sidebar"
-
+import React from "react";
 function Sidebar2(){
     return(
         <aside class="sidebar">

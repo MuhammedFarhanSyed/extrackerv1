@@ -1,3 +1,4 @@
+import React from "react";
 function Subscription() {
     return(
         <main class="main-content">
