@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import Typed from 'typed.js';
-import '../App.modules.css';
+import './Landing_page.css';
 
 
 function Main_sec() {

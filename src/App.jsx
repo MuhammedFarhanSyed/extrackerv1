@@ -1,23 +1,21 @@
-import { useState } from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
-import "./App.modules.css";
-import Navbar from "./components/Navbar";
-import Main_sec from "./components/main_sec";
-import Middle_sec from "./components/middle_sec";
-import Sidebar from "./components/sidebar";
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';  // Import Router components
 
 
+import Navbar from './components/Navbar';
+import Main_sec from './components/Main_sec';
 
+import Landing_page from './components/Landing_page';
+
+import Subscribtion from './components/Subscribtion';
+import './App.css'
 function App() {
-  return (
-    <>
-      <div className="body">
-    {/* <Navbar></Navbar>
-    < Main_sec/>
-    <Middle_sec /> */}
-    <Sidebar></Sidebar>
-       
-      </div>
+  return (<>
+  {/* <Navbar></Navbar>
+  
+  <Main_sec/> */}
+  <Landing_page />
+  <Subscribtion></Subscribtion>
     </>
   );
 }
